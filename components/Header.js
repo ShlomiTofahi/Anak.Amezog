@@ -5,9 +5,9 @@ export default function Header() {
     <header>
       <div className='header container'>
         <Link href='/' passHref>
-          <h2>ענק המזגנים</h2>
+          <h2>ענק המיזוג</h2>
         </Link>
-        <img src="/images/logo2.jfif" alt="ענק המזגנים" />
+        <img src="/images/logo2.jfif" alt="ענק המיזוג" />
       </div>
     </header>
   )

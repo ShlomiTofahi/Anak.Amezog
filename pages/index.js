@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>ענק המזגנים</title>
-        <meta name="description" content="ענק המזגנים תיקון מזגנים התקנת מזגנים" />
-        <meta name="keywords" content="ענק המזגנים" />
+        <title>ענק המיזוג</title>
+        <meta name="description" content="ענק המיזוג תיקון מזגנים התקנת מזגנים" />
+        <meta name="keywords" content="ענק המיזוג" />
         <meta property="og:locale" content="he_IL" />
         <meta property="og:image" content="/logo.png" />
 
@@ -22,7 +22,7 @@ export default function Home() {
         <div className="main-header">
           <div className='bg-text-color'>
             <h1 className={styles.title}>
-              ענק המזגנים
+              ענק המיזוג
             </h1>
             <p className={styles.description}>
               תיקון | התקנה | שירות | מקצועיות
