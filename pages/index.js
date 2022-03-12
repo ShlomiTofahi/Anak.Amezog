@@ -16,12 +16,14 @@ export default function Home() {
       <Social />
       <main className={styles.main}>
         <div className="main-header">
-          <h1 className={styles.title}>
-            ענק המזגנים
-          </h1>
-          <p className={styles.description}>
-            תיקון | התקנה | שירות | מקצועיות
-          </p>
+          <div className='bg-text-color'>
+            <h1 className={styles.title}>
+              ענק המזגנים
+            </h1>
+            <p className={styles.description}>
+              תיקון | התקנה | שירות | מקצועיות
+            </p>
+          </div>
           <img className="main-heaer-img" src="/images/header2.png" alt="מזגן" />
         </div>
         <div className="about">
