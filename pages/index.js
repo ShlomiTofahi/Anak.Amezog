@@ -8,12 +8,14 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>ענק המזגנים</title>
+        <meta name="description" content="ענק המזגנים תיקון מזגנים התקנת מזגנים" />
         <meta name="keywords" content="ענק המזגנים" />
+        <meta property="og:locale" content="he_IL" />
+        <meta property="og:image" content="/logo.png" />
 
-        <meta name="description" content="התקנה/תיקון מזגנים" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/png" sizes="192x192" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/png" sizes="512x512" />
+        <link rel="shortcut icon" href="/logo.png" type="image/png" sizes="192x192" />
+        <link rel="shortcut icon" href="/logo.png" type="image/png" sizes="512x512" />
       </Head>
       <Social />
       <main className={styles.main}>
