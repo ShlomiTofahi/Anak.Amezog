@@ -12,6 +12,7 @@ export default function Home() {
 
         <meta name="description" content="התקנה/תיקון מזגנים" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
       <Social />
       <main className={styles.main}>
